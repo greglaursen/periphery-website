@@ -3,32 +3,6 @@ import folium
 
 # Create a map
 m = folium.Map(location=[35.776768257824415, 35.23451634480424], zoom_start=4)
-"""
-# Add a combined title and instructions box with enhanced styling
-title_instructions_html = '''
-<div style="
-    position: fixed; 
-    top: 10px; left: 10px; 
-    font-size: 26px; font-weight: bold; 
-    text-align: center; background-color: #343a40; 
-    color: white; padding: 10px 20px; 
-    border-radius: 10px; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
-    border: 2px solid #007bff; z-index: 9999;
-">
-    Interactive Map<br>Israel's Periphery Policy
-    <div style="
-        font-size: 14px; 
-        margin-top: 10px; 
-        font-weight: normal;
-        text-align: left;
-    ">
-        Instructions:<br>Click on the markers to learn more about each relationship with Israel.<br>Start with Israel to learn about the Periphery Policy.<br>Note the map shifts, you can click and drag to move around
-    </div>
-</div>
-'''
-m.get_root().html.add_child(folium.Element(title_instructions_html))
-"""
 
 # Add a combined title and instructions box with a toggle button positioned above the title box
 title_instructions_html = '''
@@ -50,7 +24,7 @@ title_instructions_html = '''
 </div>
 <div id="titleBox" style="
     position: fixed; 
-    top: 40px; left: 10px; 
+    top: 40px; left: 50px; 
     font-size: 26px; font-weight: bold; 
     text-align: center; background-color: #343a40; 
     color: white; padding: 10px 20px; 
