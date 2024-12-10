@@ -39,7 +39,7 @@ title_instructions_html = '''
         font-weight: normal;
         text-align: left;
     ">
-        Start by clicking on Israel to learn about the Periphery Policy<br>Click on different markers to learn more about various groups’ relationship with Israel.<br>Start with Israel to learn about the Periphery Policy.<br>Tips: (1) the map shifts, so you can click and drag to move around.<br>(2) click the 'hide title' button if it is obscuring the text.
+        Start by clicking on Israel to learn about the policy of periphery<br>Tips:<br>(1) the map shifts, click and drag to move around<br>(2) click the 'hide title' button if this title box is obscuring any text<br>(3) click on the 'x' in the top-right or simply off of the pop-up to hide it
     </div>
 </div>
 
