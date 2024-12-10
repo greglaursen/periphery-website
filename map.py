@@ -39,7 +39,7 @@ title_instructions_html = '''
         font-weight: normal;
         text-align: left;
     ">
-        Start by clicking on Israel to learn about the policy of periphery<br>Tips:<br>(1) the map shifts, click and drag to move around<br>(2) click the 'hide title' button if this title box is obscuring any text<br>(3) click on the 'x' in the top-right or simply off of the pop-up to hide it
+        Start by clicking on Israel to learn about the policy of periphery<br>Tips:<br>(1) The map shifts, click and drag to move around<br>(2) Click the 'hide title' button if this title box is obscuring any text<br>(3) Click on the 'x' in the top-right or simply off of the pop-up to hide it
     </div>
 </div>
 
@@ -95,7 +95,7 @@ add_marker(m, [33.8547, 35.8623], 'Lebanon',
            """
            <h1 style='text-align: center;'>Lebanon</h1>
            <img src='sla.jpg' width=500px style='display: block; margin: 0 auto;'>
-           <p><em>Israeli military officials meet with Maronite leaders during the Lebanese Civil War.</em></p>
+           <p style='text-align: center;'><em>Major Saad Haddad and Christian militias from South Lebanon occupy Chateau de Beaufort after its capture by the Israeli army on June 7, 1982, Lebanon.</em></p>
            <div style='height: 250px; overflow-y: scroll; font-size: 16px; line-height: 1.6; padding: 10px; width: 600px;'>
                <p><strong>The relationship between Israel and the Maronites:</strong> The largest Christian community in Lebanon, the Maronites, have had a relationship with Israel shaped by both cooperation and mutual anxieties, rooted in their shared sense of marginalization within a predominantly Muslim region. Although Israel’s Periphery Doctrine’s stated aim is to form alliances with non-Arab groups and states to counter Arab hostility, it is important to note what “Arab” means. Lebanese Christian families are credited with the creation of a modern Arab identity based upon a shared language in hopes of integrating into society further and curbing any future persecution. While some Maronites identify themselves with an Arab identity—and many do not, instead tracing their roots to the Ancient Phoenicians or Assyrian peoples—the relationship between Israel and the Maronites was generally focused on countering mutual Arab-Muslim actors. This relationship, despite moments of alignment, has ultimately been characterized by disappointment and unfulfilled potential.</p>
                
@@ -127,7 +127,7 @@ add_marker(m, [35.721399227207556, 51.36824024219843], 'Iran',
            """
            <h1 style='text-align: center;'>Iran</h1>
            <img src='Iran_Israel.jpg' width=500px style='display: block; margin: 0 auto;'>
-           <p><em>Top Iranian military officials meet with Israeli officers in the headquarters of the Israel Defense Forces, 1975.</em></p>
+           <p style='text-align: center;'><em>Top Iranian military officials meet with Israeli officers in the headquarters of the Israel Defense Forces, 1975.</em></p>
            <div style='height: 250px; overflow-y: scroll; font-size: 16px; line-height: 1.5; padding: 10px; width: 600px;'>
                <p><strong>The historical relationship between Israel and Iran</strong> offers a nuanced narrative of ancient connections, strategic alliances, and bitter rivalry, evolving significantly over centuries. Rooted in ancient ties, the Jewish and Persian peoples shared a notable cultural and historical affinity. Persian King Cyrus the Great, celebrated in Jewish tradition for liberating Jews from Babylonian captivity in the 6th century BCE, laid the foundation for a relationship marked by mutual respect. Persian lands later became a center for flourishing Jewish communities (Ansari 2024).</p>
                
@@ -159,7 +159,7 @@ add_marker(m, [39.94593856201844, 32.85303677231913], 'Turkey',
            """
            <h1 style='text-align: center;'>Turkey</h1>
            <img src='Esin_Weizmann.jpg' width=500px style='display: block; margin: 0 auto;'>
-           <p><em>The first Turkish ambassador to Israel, Seyfullah Esin (center), with President Chaim Weizmann (left) and Foreign Minister Moshe Sharett (right), after submitting his credentials in Rehovot.</em></p>
+           <p style='text-align: center;'><em>The first Turkish ambassador to Israel, Seyfullah Esin (center), with President Chaim Weizmann (left) and Foreign Minister Moshe Sharett (right), after submitting his credentials in Rehovot.</em></p>
            <div style='height: 250px; overflow-y: scroll; font-size: 16px; line-height: 1.6; padding: 10px; width: 600px;'>
                <p><strong>Early Relationship with Israel:</strong> Turkey was the first Muslim-majority country to formally recognize Israel in March 1949 (Rojhilat, et. al. 2018). However, its relationship with Israel during the early years of Ben-Gurion's Periphery Doctrine was cautious and complex. While Turkey shared Israel’s concerns over regional threats such as pan-Arabism under Egypt’s Gamal Abdel Nasser, its engagement in the Periphery Doctrine was less enthusiastic than that of Iran or Ethiopia. Turkey's relatively warmer relations with Arab states, reliance on Arab oil, and access to American aid through NATO membership contributed to its measured approach (Voller 2025).</p>
 
@@ -188,7 +188,7 @@ add_marker(m, [9.008269260071042, 38.74792799907618], 'Ethiopia',
            """
            <h1 style='text-align: center;'>Ethiopia</h1>
            <img src='Haile_Golda.jpeg' width=500px style='display: block; margin: 0 auto;'>
-           <p style='font-style: italic;'>Israeli Prime Minister Golda Meir shaking hands with Ethiopian Emperor Haile Selassie</p>
+           <p style='text-align: center; style=font-style: italic;'>Israeli Prime Minister Golda Meir shaking hands with Ethiopian Emperor Haile Selassie</p>
            <div style='height: 250px; overflow-y: scroll; font-size: 16px; line-height: 1.5; padding: 10px; width: 600px;'>
                <p>Ethiopia became a key component of Israel’s Periphery Doctrine due to a combination of shared concerns, strategic importance, and historical affinity. Both Israel and Ethiopia, a predominantly Christian nation, felt threatened by the rising tide of pan-Arabism and socialist expansion, particularly the influence of Egyptian President Gamal Abdel Nasser. Their common fear of pan-Arab nationalism and the potential for Islamic unity in the Horn of Africa further united their interests (Bishku 1994).</p>
                
@@ -221,7 +221,7 @@ add_marker(
     """
     <h1 style='text-align: center;'>The Kurds</h1>
     <img src='Amir_Kurds.webp' width=500px style='display: block; margin: 0 auto;'>
-    <p style='font-style: italic;'>The head of Israel’s Mossad, General Meir Amit, in dark clothing, met with the Kurdish leader Mulla Mustafa Barzani in the Kurdistan mountains (circa 1966).</p>
+    <p style='text-align: center; style=font-style: italic;'>The head of Israel’s Mossad, General Meir Amit, in dark clothing, met with the Kurdish leader Mulla Mustafa Barzani in the Kurdistan mountains (circa 1966).</p>
     <div style='height: 250px; overflow-y: scroll; font-size: 16px; line-height: 1.5; padding: 10px; width: 600px;'>
         <p>The relationship between Israel and the Kurds has long been a significant, though often understated, aspect of Israel's Periphery Doctrine. The majority of Kurdish people are non-Arab Muslims with minority populations in Turkey, Iran, Iraq, and Syria. Both the Jews and the Kurds share a history of persecution by common adversaries, particularly Arab nationalists and extremist regimes. For instance, Saddam Hussein's regime in Iraq, known for its hostility toward Israel, also perpetrated genocide against the Kurds (Frantzman 2024). Similarly, Hafez Assad's regime in Syria denied citizenship and basic rights to many Kurds, while Iran’s ayatollahs systematically suppressed Kurdish dissidents. This shared experience of repression forged a natural bond between the two peoples, united in their desire for self-determination and security.</p>
         <p>The genesis of Israeli-Kurdish relations can be traced back to the 1960s, following the outbreak of the Kurdish rebellion against the Iraqi government in 1961. This marked the beginning of a growing alliance, rooted in Israel's Periphery Doctrine, which sought to build partnerships with non-Arab states and groups in the Middle East to counter the Arab opposition to Israel. The Kurds, with their longstanding insurgency against the Iraqi government—a staunch supporter of anti-Israeli policies—offered Israel a valuable opportunity for cooperation (Rojhilat, et. al. 2018). Additionally, the Kurdish movement had limited ties to the Kurdistan Workers' Party (PKK) active in Turkey, reducing the risk of significant diplomatic fallout for Israel from Turkey or the United States.</p>
@@ -251,7 +251,7 @@ add_marker(
     """
     <h1 style='text-align: center;'>Israel: Ben Gurion's Periphery Doctrine</h1>
     <img src='ben_gurion.jpg' width=500px style='display: block; margin: 0 auto;'>
-    <p style='font-style: italic;'>David Ben Gurion, the first Prime Minister of the State of Israel, at the 22nd Zionist Congress in 1946.</p>
+    <p style='text-align: center; style=font-style: italic;'>David Ben Gurion, the first Prime Minister of the State of Israel, at the 22nd Zionist Congress in 1946.</p>
     <div style='height: 250px; overflow-y: scroll; font-size: 16px; line-height: 1.5; padding: 10px; width: 600px;'>
         <p>Israel's Periphery Doctrine, conceived by Israel’s first prime minister, David Ben-Gurion, emerged as a strategic response to the united Arab opposition that threatened Israel's existence following its Declaration of Independence in 1948. Faced with isolation in a hostile region, the Policy sought to counterbalance the Arab bloc by forging alliances with non-Arab and non-Muslim states, as well as with minority groups in the Middle East (Hazran 2020). These alliances were designed to break the unity of Israel’s adversaries, reduce its diplomatic and economic isolation, and secure critical resources and intelligence. In the context of the Israeli-Palestinian conflict, the policy worked as an “outside-in” strategy: solve the conflict with the neighbors, before you solve the internal conflict.</p>
         <p>Key allies under the Periphery Doctrine included Ethiopia, Iran, Turkey, Lebanese Maronite Christians, and the Kurds (Rojhilat, et. al. 2018). Ethiopia's Christian identity and strategic location on the Red Sea made it a valuable partner, providing Israel with access to South Sudanese rebels and eventually facilitating the evacuation of Ethiopian Jews through Operations Moses and Solomon (Bishku 1994). Iran, sharing Israel's opposition to Egyptian President Nasser's Pan-Arabism, cooperated in areas such as oil, trade, and military support (Furlan 2022). Turkey, concerned about Soviet and Syrian influence, developed strategic ties with Israel, including military and intelligence collaboration. Lebanese Christians, due to their proximity and shared minority status, were seen as potential partners, with Israel even contemplating support for a Christian state in Lebanon (Zisser 1995). Similarly, Israel cultivated ties with the Kurdish resistance, recognizing their struggle against Arab-dominated governments as a shared interest.</p>
