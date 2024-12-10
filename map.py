@@ -32,7 +32,7 @@ title_instructions_html = '''
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
     border: 2px solid #007bff; z-index: 9999;
 ">
-    Explore<br>Israel's Periphery Policy
+    Explore Israel's Periphery Doctrine
     <div style="
         font-size: 14px; 
         margin-top: 10px; 
